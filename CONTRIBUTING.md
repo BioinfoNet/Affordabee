@@ -3,7 +3,7 @@
 ### Introduction
 Thank you for taking time to contribute to the Affordabee project! :tada::+1:
 
-We had previously started putting together some publishers who offer APC waivers or subsidies within Biomedical sciences during our OpenScienceKE hackathon in 2018. We now seek to extend the resource (https://github.com/BioinfoNet/LowCostOpenAccess) to other fields in the life sciences by creating an interactive GitHub page or website that is accessible and easy to use.
+We had previously started putting together some publishers who offer APC waivers or subsidies within Biomedical sciences during our OpenScienceKE hackathon in 2018. We now seek to extend the resource [LowCostOpenAccess](https://github.com/BioinfoNet/LowCostOpenAccess) to other fields in the life sciences by creating an interactive GitHub page or website that is accessible and easy to use.
 
 ### Objective
 We aim to create a comprehensive resource on journals that offer waivers and subsidies to guide students and early career researchers on where they can publish their work at low cost.
