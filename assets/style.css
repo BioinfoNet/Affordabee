@@ -1,0 +1,197 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Fira Sans", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+/* Custom stylesheet for the affordabee*/
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    font-weight: 700;
+    /*background: url("bg.jpg") no-repeat center center;*/
+    background-size: cover;
+    width: 100%;
+    background-color: rgba(39, 135, 131, 0.62) !important;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.w3-tiny {
+  font-size: 11px!important;
+}
+
+.w3-content-multiquery {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sideNav{
+  border-right: 1px #A9A9A9 solid;
+  background-color: #999999;
+  /* border-top-right-radius: 6px; */
+  display: block;
+  float: left;
+  margin: 0px;
+  line-height: 30px;
+  width: 9em;
+  margin-top: 13px;
+  padding-left: 5px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 15px;
+}
+.sideNav a:link{
+  background-color: #f6f6f6;
+  border-bottom: 1px #797979 solid;
+  border-top: 1px #FFFFFF solid;
+  color: #FFFFFF;
+  display: block;
+  padding-left: 3px;
+  text-decoration: none;
+  white-space: nowrap;
+  height: 30px;
+}
+.sideNav a:hover{
+  color: red;
+}
+.sideNav a span{
+  color: #336699;
+  left: 0.25em;
+  position: relative;
+}
+
+.w3-card, .w3-card-2{
+  box-shadow: none;
+}
+
+/* Table Css fix first test*/
+.w3-teal, .w3-hover-teal:hover {
+  color: #fff!important;
+  background-color: #424843!important;
+}
+
+.w3-blue, .w3-hover-blue:hover {
+  color: #fff!important;
+  background-color: #578e72!important;
+}
+
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+  color: #000000!important;
+  background-color: #ffffff!important;
+}
+
+.w3-bordered tr, .w3-table-all tr {
+  border-bottom: 1px solid #fbb;
+}
+.w3-table-all {
+  border: 1px solid #fbb;
+}
+
+/* Footer fix */
+.w3-padding-64 {
+  padding-top: 10px!important;
+  padding-bottom: 20px!important;
+}
+.w3-footer, .w3-hover-blue:hover {
+  border-top: 2px solid #989898;
+  border-bottom: 1px solid #e2e1e1;
+  min-height: 60px;
+  padding-top: 15px;
+  padding-top: 5px;
+  color: #000000!important;
+  background-color: #f1f1f1!important;
+}
+
+.w3-select {
+    padding: 0;
+    width: 150px;
+    border: none;
+    height: 45px;
+    border-bottom: 1px solid #ccc;
+}
+
+.w3-bar-item b {
+    color: green;
+}
+
+.query { 
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 300px;
+}
+
+/* Add some margins for each label */
+.query label {
+  margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.query input {
+  vertical-align: middle;
+  margin: 1px 1px 1px 1px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+/* Style the submit button */
+.query button {
+  padding: 12px 20px;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.query button:hover {
+  background-color: royalblue;
+}
+
+/* Style the DataTable */
+
+.dataTable  thead>tr>th{
+    height: 40px;
+    color: white;
+    text-align: center;
+    background-color: #8a0600 !important;
+    vertical-align: middle !important;
+    border-bottom: 0px solid #ddd;
+}
+
+.dataTable tbody>tr{
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+  padding: 8px 16px 8px 8px;
+  font-size: 12px;
+  overflow: hidden;
+}
+.dataTable tbody>tr>td{
+  font-weight: 500;
+  padding-right: 10px;
+  overflow: hidden;
+}
+
+#mySelection{
+    border-collapse:separate; 
+    border-spacing:0 10px !important; 
+}
+
+.jbody{
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .query input {
+    margin: 10px 0;
+  }
+
+  .query {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

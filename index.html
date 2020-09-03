@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Affordabee | Low-Cost Open Access Publishing</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 
+#####################
+Affordabee Template #
+Author: Arup Ghosh  #
+Date: 03/09/2020    #
+Base: W3.CSS        #
+#####################
+-->
+<link rel="stylesheet" href="./assets/w3.css">
+<link rel="stylesheet" href="./assets/style.css">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">-->
+<!--<link rel="stylesheet" href="./assets/font-awesome.min.css">-->
+<!--<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">-->
+<!-- Complied & minified library css -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!--BOOTSTRAP JS-->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ 
+    <!--BOOTSTRAP CSS-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- DataTables -->
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.3/js/jquery.dataTables.js"></script>
+
+    <!--bootstrap integration css -->
+    <link rel="stylesheet" href="//cdn.datatables.net/plug-ins/a5734b29083/integration/bootstrap/3/dataTables.bootstrap.css">
+
+    <!--bootstrap integration js -->
+    <script src="//cdn.datatables.net/plug-ins/a5734b29083/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+
+    <!-- TableTop raw git -->
+    <script src="assets/tabletop.js"></script>
+<script>
+  var x = document.getElementsByClassName("w3-bar");
+  $('x a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('w3-white');
+</script>
+</head>
+<body>
+<!-- Navbar -->
+
+  <div class="w3-bar w3-teal w3-card w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">Affordabee</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-right w3-hide-small">Contact Us</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-right w3-hide-small">About</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-right w3-hide-small">Help</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large  w3-right w3-hide-small">Statistics</a>
+
+  </div>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">FAQ</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Statistics</a>
+  </div>
+<!-- Header -->
+<header class="w3-container w3-black w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo"><b>Low-Cost Open Access Publishing</b></h1>
+  <p class="w3-xlarge">
+  Please use the search box to find journals.
+  </p>
+ <form class="w3-container query" action="result.php" method="post">
+  <input class="w3-input w3-border" name="jsearch" type="text" required placeholder="Type a journal name or publisher">
+<!-- <select class="w3-select" name="qtype">
+  <option value="gene">Gene name</option>
+  <option value="supfam">Family</option>
+  <option value="binary">Binary Search</option>
+ </select>
+  <button class="w3-btn w3-red">Search</button>-->
+ </form>
+<!--  <a href="advanced_search.php">Advanced Search</a>-->
+</header>
+
+<div class="w3-row-padding w3-container w3-center w3-margin-top jbody">
+<div id="graphic"></div>
+</div>
+
+<!--include footer here-->
+<script src="./assets/graphic.js" type="text/javascript"></script>
+<div class="w3-container w3-footer w3-center">
+<b> Powered by :</b>
+            <img width="100px" src="https://elifesciences.org/assets/patterns/img/patterns/organisms/elife-logo-xs.fd623d00.svg">
+<b> Managed by :</b>
+            <img width="120px" src="https://ecrcentral.org/images/elife-ambassadors.png">
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+ <p>© 2020 Affordabee. The content is licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"> <i class="fa fa-creative-commons" aria-hidden="true"></i> </a> Creative Commons BY 4.0. <br> Affordabee is developed with <span style="color: #e25555;">♥</span> by eLife Ambassadors.</p>
+</footer>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
